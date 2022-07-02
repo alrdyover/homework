@@ -1,0 +1,41 @@
+* {
+    margin: 0
+}
+
+body { 
+    width: 1000px;
+    height: 1000px;
+    background-color: grey;
+}
+
+.container {
+    background-color: white;
+    height: 1000px;
+    width: 800px;
+    margin: 0 50%;
+    font-family: "Arial", sans-serif;
+}
+
+.site-header {
+margin-left: 50px;
+padding-top: 75px;
+padding-bottom: 75px;
+}
+
+.bar {
+    height: 35px;
+    margin: 0 75px;
+    padding-top: 25px;
+background-color: rgb(36, 24, 24, 0.733);
+color: white
+}
+
+.bar p {
+    display: inline-block;
+    text-transform: uppercase;
+    padding-left: 6%;
+}
+
+.selected {
+background-color: aquamarine;
+}
